@@ -13,7 +13,7 @@ A **financial platform prototype** built on a Go gateway, .NET domain core, and 
 | **Frontend (Next.js)** | Most features working |
 | **Go Gateway + .NET Core** | In place, gRPC wired |
 | **AI + Dashboard automation** | **In progress** — Text-to-Speech & automation |
-| **Account transfer** | Planned |
+| **Account transfer** | Done |
 | **Stock investment** | Planned |
 | **Secret features** | Teased — stay tuned |
 
@@ -46,21 +46,19 @@ This keeps the “AI as a client” idea: automation and TTS use the same APIs a
 
 ---
 
-## Coming Soon
-
-Planned or partially scoped:
-
-- **Account transfer** — Move funds between accounts; domain rules and UI
-- **Stock investment** — Investment flows and modeling on top of the existing stack
-- **Secret features** — A few extras we’re not announcing yet; they’ll land in future updates
-
-The architecture (Go gateway, .NET domain, gRPC, REST at the edge) is designed so these can be added without rewrites.
-
----
-
 ## Screenshots
 
-**Prototype UI**
+### Latest Updates
+
+This is before AI action is applied
+
+![Prototype](screenshots/update1.png)
+
+This is after AI action has applied itself
+
+![Prototype](screenshots/update2.png)
+
+## Prototype UI
 
 ![Prototype](screenshots/take1.png)
 
@@ -68,6 +66,16 @@ The architecture (Go gateway, .NET domain, gRPC, REST at the edge) is designed s
 
 ![Prototype](screenshots/take3.png)
 
+---
+
+## Coming Soon
+
+Planned or partially scoped:
+
+- **Stock investment** — Investment flows and modeling on top of the existing stack
+- **Secret features** — A few extras we’re not announcing yet; they’ll land in future updates
+
+The architecture (Go gateway, .NET domain, gRPC, REST at the edge) is designed so these can be added without rewrites.
 
 ---
 
@@ -111,6 +119,6 @@ Automation and AI (including TTS and future MCP/LLM integrations) will call the 
 
 - **Now:** Frontend and stack are working; dashboard, core flows, and tests are in place.
 - **Now:** We’re adding **AI and Text-to-Speech** for dashboard automation.
-- **Next:** Account transfer, stock investment, and a few unannounced features.
+- **Next:** Stock investment, and a few unannounced features.
 
 This README will be updated as features ship. For setup and run instructions, see the project’s other docs.
