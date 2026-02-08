@@ -50,11 +50,15 @@ This keeps the “AI as a client” idea: automation and TTS use the same APIs a
 
 ### Latest Updates
 
-This is before AI action is applied
+Voice to text and confirmation of action:
+
+![Prototype](screenshots/prototype1.gif)
+
+This is before AI action is applied:
 
 ![Prototype](screenshots/update1.png)
 
-This is after AI action has applied itself
+This is after AI action has applied itself:
 
 ![Prototype](screenshots/update2.png)
 
